@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/238-pearso
 x-kinRank: "9"
 x-alexaRank: "2670"
 tags: Courses
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/courses/master/_listings/pearson-plc/apis.md
 specificationVersion: "0.14"
 apis: []

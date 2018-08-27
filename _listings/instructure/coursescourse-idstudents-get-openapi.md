@@ -16,6 +16,51 @@ produces:
 consumes:
 - application/json
 paths:
+  /audit/course/courses/{course_id}:
+    get:
+      summary: Query by course.
+      description: Query by course..
+      operationId: query-by-course
+      x-api-path-slug: auditcoursecoursescourse-id-get
+      parameters:
+      - in: query
+        name: end_time
+        description: The end of the time range from which you want events
+      - in: query
+        name: start_time
+        description: The beginning of the time range from which you want events
+      responses:
+        200:
+          description: OK
+      tags:
+      - Audit
+      - Course
+      - Courses
+      - Course
+      - Id
+  /audit/grade_change/courses/{course_id}:
+    get:
+      summary: Query by course.
+      description: Query by course..
+      operationId: query-by-course
+      x-api-path-slug: auditgrade-changecoursescourse-id-get
+      parameters:
+      - in: query
+        name: end_time
+        description: The end of the time range from which you want events
+      - in: query
+        name: start_time
+        description: The beginning of the time range from which you want events
+      responses:
+        200:
+          description: OK
+      tags:
+      - Audit
+      - Grade
+      - Change
+      - Courses
+      - Course
+      - Id
   /courses:
     get:
       summary: List your courses

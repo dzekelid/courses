@@ -1,0 +1,109 @@
+{
+	"name": "Streadata.io API Gallery - Courses",
+	"description": "This is a repository of courses APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/courses.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://courses.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Knewton",
+			"x-api-slug": "knewton",
+			"description": "Students worldwide get personalized recommendations from the most advanced adaptive learning platform. Learn how Knewton can power your courses.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/218-knewton.jpg",
+			"humanURL": "http://www.knewton.com",
+			"baseURL": "https:///",
+			"tags": "Courses",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/courses/master/_listings/knewton/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Pearson plc",
+			"x-api-slug": "pearson-plc",
+			"description": "Offering educational products and services, assessment, and professional development for all stages of learning. Learn more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/238-pearson-plc.jpg",
+			"humanURL": "https://developer.pearson.com/",
+			"baseURL": "https:///",
+			"tags": "Courses",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/courses/master/_listings/pearson-plc/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Instructure",
+			"x-api-slug": "instructure",
+			"description": "Instructure makes software that makes smarter people. Products include Canvas LMS, Bridge and Canvas Network.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg",
+			"humanURL": "http://instructure.com",
+			"baseURL": "https://canvas.instructure.com//api/v1",
+			"tags": "Courses",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/courses/master/_listings/instructure/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Classroom",
+			"x-api-slug": "google-classroom",
+			"description": "Google Classroom is mission control for your classes. As a free service for teachers and students, you can create classes, distribute assignments, send feedback, and see everything in one place. Instant. Paperless. Easy.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-classroom.png",
+			"humanURL": "https://classroom.google.com/",
+			"baseURL": "://classroom.googleapis.com//",
+			"tags": "Courses",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/courses/master/_listings/google-classroom/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Learnifier",
+			"x-api-slug": "learnifier",
+			"description": "Create your online courses in minutes. Learnifier is the fast and easy tool for creating and sharing great courses that work on your mobile, tablet and desktop. Book a DEMO or test it out with our FREE TRIAL.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28448-learnifier.jpg",
+			"humanURL": "http://learnifier.com",
+			"baseURL": "https://learnifier.com//",
+			"tags": "Courses",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/courses/master/_listings/learnifier/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Courses",
+	"include": [
+		{
+			"name": "Knewton",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/courses/master/_listings/knewton/apis.yaml"
+		},
+		{
+			"name": "Pearson plc",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/courses/master/_listings/pearson-plc/apis.yaml"
+		},
+		{
+			"name": "Instructure",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/courses/master/_listings/instructure/apis.yaml"
+		},
+		{
+			"name": "Google Classroom",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/courses/master/_listings/google-classroom/apis.yaml"
+		},
+		{
+			"name": "Learnifier",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/courses/master/_listings/learnifier/apis.yaml"
+		}
+	]
+}
